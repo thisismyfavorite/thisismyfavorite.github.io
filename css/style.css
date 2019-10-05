@@ -5,13 +5,13 @@ body {
   margin: 0px;
   padding: 0px;
   font-size: 16px;
-  font-family: "Source Serif Pro", Helvetica, Arial, sans-serif;
-  background-color: #C40;
-  color: white;
+  //font-family: "Source Serif Pro", Helvetica, Arial, sans-serif;
+  //background-color: #C40;
+  //color: white;
 }
 
 h1, h2, h3, h4 {
-  font-family:  "Montserrat", Helvetica, Arial, sans-serif;
+  //font-family:  "Montserrat", Helvetica, Arial, sans-serif;
   text-decoration: none;  
 }
 
@@ -20,9 +20,49 @@ p {
 }
 
 a {
-
+  color: cornflowerblue;
+  text-decoration: none;
 }
 
 a:hover {
-  color: #3b6628;
+  color: lightgrey;
+}
+
+img {
+  width: 150px;
+}
+
+div.container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  max-width: 900px;
+  padding: 0px;
+}
+
+div.row {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0.5em 0em 0.5em 0em;
+}
+
+div.row-image {
+  display: flex;
+  flex-flow: row;
+  margin-right: 1em;
+}
+
+div.row-description {
+
+}
+
+div.spacer {
+  margin: 1.5em 0em 0.5em 0em;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  width: calc(100%-0em);
+}
+
+img.profile-image {
+  width: 200px;
 }
